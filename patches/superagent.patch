@@ -1,0 +1,14 @@
+diff --git a/lib/node/index.js b/lib/node/index.js
+index 962f863c96bbfd8bdd04eab572c19c001e2dc946..e232917b68904869228e9c6386261e1f4c813c20 100644
+--- a/lib/node/index.js
++++ b/lib/node/index.js
+@@ -67,6 +67,9 @@ function request(method, url) {
+   return new exports.Request(method, url);
+ }
+ 
++// test
++request.patchedAt = '2021-08-09';
++
+ module.exports = request;
+ exports = module.exports;
+ /**
