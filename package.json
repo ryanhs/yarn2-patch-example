@@ -6,5 +6,8 @@
   "dependencies": {
     "superagent": "patch:superagent@6.1.0#patches/superagent.patch"
   },
-  "packageManager": "yarn@2.4.2"
+  "packageManager": "yarn@2.4.2",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
